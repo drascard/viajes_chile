@@ -12,14 +12,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/Style.css">
-    
+    <script src="https://kit.fontawesome.com/a0cd6c598a.js" crossorigin="anonymous"></script>
 
     <title>Viajes Chile</title>
   </head>
-  <body >
+<!-- inicio navbar -->
+  <body class="body">
     <nav class="navbar navbar-expand-lg navbar-dark oppasity-0 fixed-top">
       
         <div class="container-fluid">
+          <img width="38" src="assets/img/viajes.svg" alt="Viajes Chile">
          <a class="navbar-brand" href="#">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,31 +29,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+              
               <li class="nav-item">
-                <a class="nav-link active text-center" href="#">Quienes somos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Destacados
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-              </li>
+                <a class="nav-link active text-center" href="#">¿Quienes somos?</a></li>
+              
+              <li class="nav-item ">
+                <a class="nav-link active text-center" href="#">Destacados</a></li>
+              
+                  
+                
               <li class="nav-item">
-                <a class="nav-link disabled">Contacto</a>
-              </li>
+                <a class="nav-link active text-center"href="footer">Contacto</a></li>
+              
             </ul>
             
           </div>
         </div>
       </nav>
-                
+
+      <!-- carousel -->
+         
+      
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -74,24 +73,226 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-          <div class="col-lg-5 text-center">
-            <p class="h2 font-weight-bold text-white ">¿Quienes somos?</p>
+
+        <!-- texto quienes somos -->
+          <div class="col-lg-12 text-center" id= "¿Quienes somos?">
+            <p class="h2 font-weight-bold text-white ¿Quienes somos? text-center">¿Quienes somos?</p>
           </div>
+         
+          <!-- linea divisoria --> 
+          <hr>
+
+          <!-- cartas de texto y imagenes pequeñas -->   
+
+
           
-          <div class="container">
-            <section class="barra">----------------------------------</section>
-            <section>
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+             <section class="container">
+              <div class="row">      
+                   <div class="card col-md-4 p-4 bg-black">
+                    
+                    <p class="text-white text center bg-primary"><i class="fas fa-plane"></i></p>
+                      <div class="card" style="width: 18rem;">
+                      
+                       <div class="card-body">
+                         <p class="card-text text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                         
+                       </div>
+                 
+                     
+                       </div>
+                     </div>
+
+                   <div class="card col-md-4 p-4 bg-black">
+                            
+                            <p class="text-white text center bg-primary"><i class="fas fa-anchor"></i>
+                              <div class="card" style="width: 18rem;">
+                              
+                               <div class="card-body">
+                                 <p class="card-text text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                                 
+                               </div>
+                         
+                             
+                               </div>
+                             </div>
+                             
+                             
+
+                   <div class="card col-md-4 p-4 bg-black">
+                            
+                              <p class="text-white text center bg-primary"><i class="fas fa-car"></i>
+                                <div class="card" style="width: 18rem;">
+                                
+                                 <div class="card-body">
+                                   <p class="card-text text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                                   
+                                 </div>
+                           
+                               
+                                 </div>
+                               </div>           
+              </div>            
+                                
+          </section>
+                  
+
+             
+             
+           
+           
+                             <!-- Destacados --> 
+
+          
+
+          
+  <div class="col 12 text-center">
+            <p class="h2 font-weight-bold text-white ">Destacados</p>
+          </div>        
+          
+          <!-- linea divisoria -->
+          <hr>
+          
+              <!-- cartas con imagenes -->
+
+      <div class="container">
+         <div class="row">      
+              <div class="col-3">              
+
+                <div class="card" style="width: 15rem;">
+                  <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Torres del paine</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                    
+                  </div>
+            
+                
+                  </div>
+                </div>
+
+              <div class="col-3">              
+
+                  <div class="card" style="width: 15rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">lago</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                      
+                    </div>
+              
+                  
+                    </div>
+                  </div>
+                  
+              <div class="col-3">              
+
+                    <div class="card" style="width: 15rem;">
+                      <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Salar de atacama</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                        
+                      </div>    
+                
+                    
+                      </div>
+                    </div>
+
+              <div class="col-3">              
+
+                      <div class="card" style="width: 15rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sur de chile</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae ipsa quisquam inventore facilis saepe adipisci non optio. Ratione quod ad cum facilis, sed nesciunt dicta quibusdam! Eum, repudiandae culpa.</p>
+                          
+                        </div>    
+                  
+                      
+                        </div>
+                      </div>      
+                  </div>                   
+                
+                
+
+          
+          <!-- Contacto -->
+ 
+ 
+ 
+ 
+ 
+          <div class="col 12 text-center">
+            <p class="h2 font-weight-bold text-white ">Contacto</p>
+          </div>  
+
+          <!-- linea divisoria -->
+
+                  <hr>
+
+                  <section class=container px-4>
+            <form class="row g-3">
+              <div class="col-sm-12 col-md-6">
+                <input type="text" class="form-control" placeholder="nombre" aria aria-label="first name">
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <input type="text" class="form-control" placeholder="apellido" aria aria-label="last name">
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <input type="text" class="form-control" placeholder="email" id="inputEmail4">
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Tel 54984647737">
+              </div>
+              <div class="col-md-4">
+                <select id="inputState" class="form-select">
+                  <option selected>lugares de chile</option>
+                  <option value="1">norte</option>
+                  <option value="2">centro</option>
+                  <option value="3">sur</option>
+                  <option value="4">rapanui</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridcheck">
+                  <label class="form-check-label" type="gridcheck">check me out</label>
                 </div>
               </div>
-           
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">sign in</button>
+              </div>
 
+            </form>
           </section>
+
+       
+
+
+          
+
+
+          <!-- pie de pagina y link a redes sociales -->
+
+      <footer id="contacto" class="mcolor">
+            <div class='container'>
+              <div class='row'>
+
+
+                <div class='col-6'>
+                  <h1 class='foo m-1 text-center text-white'>VIAJES CHILE</h1>
+                </div>
+                <div class='col-6 text-white text-center'>
+                  <a href="https://github.com"><i class="fab fa-github-square fa-5x text-white p-2"></i></a>
+                  <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x text-white p-2"></i></a>
+                  <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x text-white p-2"></i></a>
+                  <a href="https://faceboock.com"><i class="fab fa-facebook-square fa-5x text-white p-2"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>    
+        
           
          
                
@@ -109,6 +310,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+    <!-- <i probando class="fas fa-plane"></i><i class="fas fa-anchor"></i><i class="fas fa-car"></i> -->
+
   
 </html>
